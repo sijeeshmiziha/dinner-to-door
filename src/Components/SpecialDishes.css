@@ -1,0 +1,24 @@
+.special-dishes{
+    margin: 60px auto;
+}
+.special-menu{
+   
+    margin: 25px auto;
+    
+    
+}
+.special-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.special-menu ul img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.special-menu li{
+    width: 21%;
+    margin: 20px 08px;
+    font-size: small;
+}

@@ -1,0 +1,25 @@
+.add-cart{
+    width: 120px;
+    position: fixed;
+    right: 0%;
+    top: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: honeydew;
+   
+}
+.add-cart-container{
+    overflow-y: scroll;
+}
+.add-cart-container img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.add-cart-container h2 {
+    text-align: center;
+   font-size: small;
+}
+.add-cart h4{
+    text-align: center;
+}

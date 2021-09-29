@@ -1,0 +1,37 @@
+.filter-dishes ul{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 30px auto 0;
+
+}
+.filter-dishes li{
+    background-color: rgb(218, 218, 9);
+    color: white;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 35px;
+    margin: 2px 5px;
+    cursor: pointer;
+}
+.filter-dishes li:hover{
+    background-color: black;
+}
+.filter-dishes .active{
+    background-color: black;
+}
+
+.filtered-dishes ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.filtered-dishes li {
+width: 22%;
+margin: 20px auto;
+}
+.filtered-dishes li img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
